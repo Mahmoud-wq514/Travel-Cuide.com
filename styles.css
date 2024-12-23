@@ -10,12 +10,6 @@ body.destinations {
     background-size: cover;
 }
 
-/* خلفية صفحة المراجعات */
-body.how-to-pick-your-ticket {
-    background: url('images/reviews-bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-}
-
 /* خلفية صفحة نصائح السفر */
 body.tips {
     background: url('images/tips-bg.jpg') no-repeat center center fixed;
@@ -244,12 +238,6 @@ button:hover {
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.8);
 }
-
-#how-to-pick-your-ticket {
-    padding: 10px;
-    background-color: rgb(255, 255, 255, 0.8);
-}
-
 .about {
     background-color: rgba(255, 255, 255, 0.9);
 }
