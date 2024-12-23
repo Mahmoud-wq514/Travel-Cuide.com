@@ -1,0 +1,275 @@
+/* خلفية الصفحة الرئيسية */
+body.home {
+    background: url('Travel_Around_the_World_Four_Seasons.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* خلفية صفحة الوجهات */
+body.destinations {
+    background: url('images/destinations-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* خلفية صفحة المراجعات */
+body.how-to-pick-your-ticket {
+    background: url('images/reviews-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* خلفية صفحة نصائح السفر */
+body.tips {
+    background: url('images/tips-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* خلفية صفحة الاتصال */
+body.contact {
+    background: url('images/contact-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* خلفية صفحة من نحن */
+body.about {
+    background: url('images/about-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* خلفية صفحة باريس */
+body.paris {
+    background: url('Eiffel_Tower_Paris.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* خلفية صفحة طوكيو */
+body.tokyo {
+    background: url('Tokyo_Tower.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* خلفية صفحة نيويورك */
+body.newyork {
+    background: url('Designer.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.Egypt {
+    background: url('A_breathtaking_view_of_the_Pyramids_of_Giza_in_Egy.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.London{
+    background: url('A_stunning_view_of_London,_featuring_iconic_landma.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+body.NewZealand{
+    background: url('A_picturesque_and_serene_view_of_New_Zealand.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+.fade-in {
+    animation: fadeIn 1s forwards;
+}
+
+.fade-out {
+    animation: fadeOut 1s forwards;
+}
+
+header {
+    background: #222222;
+    color: #FFFFFF;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0,0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: #F3F4F6;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #222222;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background:#4D93D2;
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    background: rgb(251, 251, 251, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+h2 {
+    color: rgb(33, 53, 85);
+    font-size: x-large;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: initial;
+    background: #FFFFFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+table, th, td {
+    font-size: x-large;
+    border: 2px solid #4D93D2; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    font-size: x-large;
+    color: #222222;
+}
+
+tr td a{
+    color: #222222;
+    padding: 15px;
+    font-size: x-large;
+    display: block;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+tr td a:hover{
+    background: #4D93D2;  
+    color: #FFFFFF;
+}
+
+th {
+    background: #4D93D2; 
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+p{
+    color: #222222;
+    font-size: x-large;
+}
+h3{
+    font-size: x-large;
+    color: #222222;
+}
+hr{
+    color: #222222;
+    font-size: x-large;
+} 
+
+img {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:  #F3F4F6;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+label {
+    margin: 10px 0 5px 0;
+    width: 100%;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #4D93D2;
+}
+
+button {
+    color: #4D93D2;
+    background-color:  #FFFFFF;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #3B7FBF; 
+    transform: scale(1.05);
+}
+#tips {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#how-to-pick-your-ticket {
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+.about {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+footer {
+    background: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 3px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.5em
+}
+#datetime { 
+    font-size: 1.2rem;
+    color: #4D93D2;  
+    text-align: center; margin: 20px 0; 
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
